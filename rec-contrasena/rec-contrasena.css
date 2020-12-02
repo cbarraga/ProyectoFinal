@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../FONDOS/varios.png) no-repeat center top;
+    /* Tamaño de imagen sin recortar ni estirar */
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Altura de la imagen igua al 100% de la ventana */
+    height: 100vh;
+}
+.cajarecuperacion{
+    width: 320px;
+    height: 420;
+    background: #000;
+    color: floralwhite;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.cajarecuperacion h1{
+    margin: 0;
+    padding: 0 0 20;
+    text-align: center;
+    font-size: 22px;
+}
+
+.cajarecuperacion label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.cajarecuperacion input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Estilos a los enlaces */
+.cajarecuperacion a{
+    text-decoration: none ;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+/* Si quieres que los enlaces tengan un
+ efecto cuaando pisiciones el cursor sobre ellos */
+.cajarecuperacion a:hover{
+    color: floralwhite;
+}
+
+.cajarecuperacion input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b8b8b8;
+    font-size: 18px;
+    border-radius: 20px;
+}
