@@ -2,15 +2,14 @@ body{
     margin: 0;
     padding: 0;
     background: url(../FONDOS/varios.png) no-repeat center top;
-     /* Tamaño de imagen sin recortar ni estirar */
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     /* Altura de la imagen igua al 100% de la ventana */
     height: 100vh;
 }
-.cajalogin{
-    width: 400px;
-    height: 420px;
+
+.recContrasena2{
+    width: 430px;
+    height: 440px;
     background: #000;
     color: floralwhite;
     top: 50%;
@@ -22,7 +21,7 @@ body{
     border-radius: 10px;
 }
 
-.cajalogin h1{
+.recContrasena2 h1{
     margin: 0;
     padding: 0 0 20;
     text-align: center;
@@ -30,20 +29,9 @@ body{
     font-family: 'Franklin Gothic Medium';
 }
 
-.cajalogin label{
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-    display: block;
-}
-
-.cajalogin input{
+.recContrasena2 input{
     width: 100%;
     margin-bottom: 20px;
-}
-
-.cajalogin input[type="email"],
-.cajalogin input[type="password"]{
     border: none;
     border-bottom: 1px solid floralwhite;
     background: transparent;
@@ -53,25 +41,12 @@ body{
     font-size: 16px;
 }
 
-/* Estilos a los enlaces */
-.cajalogin a{
-    text-decoration: none ;
-    font-size: 15px;
-    line-height: 20px;
-    color: darkgrey;
-}
-/* Si quieres que los enlaces tengan un
- efecto cuaando pisiciones el cursor sobre ellos */
-.cajalogin a:hover{
-    color: floralwhite;
-}
-
-.cajalogin input[type="submit"]{
+.recContrasena2 input[type="submit"]{
     border: none;
     outline: none;
     height: 40px;
-    background:white;
+    background: white;
     color: black;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 20px;
 }

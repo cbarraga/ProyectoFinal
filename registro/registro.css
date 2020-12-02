@@ -9,8 +9,8 @@ body{
     height: 100vh;
 }
 .cajalogin{
-    width: 320px;
-    height: 420;
+    width: 420px;
+    height: 540px;
     background: #000;
     color: floralwhite;
     top: 50%;
@@ -19,13 +19,15 @@ body{
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     padding: 70px 30px;
+    border-radius: 10px;
 }
 
 .cajalogin h1{
     margin: 0;
     padding: 0 0 20;
     text-align: center;
-    font-size: 22px;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium';
 }
 
 .cajalogin label{
@@ -41,6 +43,7 @@ body{
 }
 
 .cajalogin input[type="text"],
+.cajalogin input[type="email"],
 .cajalogin input[type="password"]{
     border: none;
     border-bottom: 1px solid floralwhite;
@@ -51,24 +54,12 @@ body{
     font-size: 16px;
 }
 
-/* Estilos a los enlaces */
-.cajalogin a{
-    text-decoration: none ;
-    font-size: 12px;
-    line-height: 20px;
-    color: darkgrey;
-}
-/* Si quieres que los enlaces tengan un
- efecto cuaando pisiciones el cursor sobre ellos */
-.cajalogin a:hover{
-    color: floralwhite;
-}
-
 .cajalogin input[type="submit"]{
     border: none;
     outline: none;
     height: 40px;
-    background: #b8b8b8;
+    background:white;
+    color: black;
     font-size: 18px;
     border-radius: 20px;
 }
