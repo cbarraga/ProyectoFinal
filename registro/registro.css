@@ -1,64 +1,65 @@
 body{
-    margin: 0;
-    padding: 0;
-    background: url(../FONDOS/varios.png) no-repeat center top;
     /* Tamaño de imagen sin recortar ni estirar */
     background-size: cover;
-    /* Altura de la imagen igua al 100% de la ventana */
+    background: url(../FONDOS/varios.png) no-repeat center top;
+    /* Altura de la imagen igual al 100% de la ventana */
     height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 .cajalogin{
-    width: 420px;
-    height: 540px;
     background: #000;
-    color: floralwhite;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    box-sizing: border-box;
-    padding: 70px 30px;
     border-radius: 10px;
+    box-sizing: border-box;
+    color: floralwhite;
+    height: 540px;
+    left: 50%;
+    padding: 70px 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 420px;
 }
 
 .cajalogin h1{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 35px;
     margin: 0;
     padding: 0 0 20;
     text-align: center;
-    font-size: 45px;
-    font-family: 'Franklin Gothic Medium';
 }
 
 .cajalogin label{
+    display: block;
+    font-weight: bold;
     margin: 0;
     padding: 0;
-    font-weight: bold;
-    display: block;
 }
 
 .cajalogin input{
-    width: 100%;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .cajalogin input[type="text"],
 .cajalogin input[type="email"],
 .cajalogin input[type="password"]{
-    border: none;
-    border-bottom: 1px solid floralwhite;
     background: transparent;
-    outline: none;
-    height: 40px;
+    border-bottom: 1px solid floralwhite;
+    border: none;
     color: floralwhite;
     font-size: 16px;
+    height: 40px;
+    outline: none;
 }
 
 .cajalogin input[type="submit"]{
-    border: none;
-    outline: none;
-    height: 40px;
     background:white;
+    border-radius: 20px;
+    border: none;
     color: black;
     font-size: 18px;
-    border-radius: 20px;
+    height: 40px;
+    margin-top:10px;
+    outline: none;
 }
