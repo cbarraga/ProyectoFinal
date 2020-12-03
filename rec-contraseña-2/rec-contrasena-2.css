@@ -3,7 +3,6 @@ body{
     padding: 0;
     background: url(../FONDOS/varios.png) no-repeat center top;
     background-size: cover;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 100vh;
 }
 
@@ -29,6 +28,10 @@ body{
     font-family: 'Franklin Gothic Medium';
 }
 
+.recContrasena2 label{
+    font-size: 20px;
+}
+
 .recContrasena2 input{
     width: 100%;
     margin-bottom: 20px;
@@ -50,3 +53,4 @@ body{
     font-size: 18px;
     border-radius: 20px;
 }
+

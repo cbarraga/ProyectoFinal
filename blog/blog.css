@@ -3,7 +3,6 @@ body{
     padding: 0;
     background: url(../FONDOS/Blog.jpg) no-repeat center top;
     background-size: cover;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 150vh;
 }
 .titulo1{
@@ -64,6 +63,6 @@ body{
     background: rgb(3, 205, 255);
     color:black;
     font-size: 18px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Oswald';
     border-radius: 10px;
 }

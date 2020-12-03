@@ -4,7 +4,6 @@ body{
     background: url(../FONDOS/PPAL.png) no-repeat center top;
     /* Tamaño de imagen sin recortar ni estirar */
     background-size: cover;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* Altura de la imagen igua al 100% de la ventana */
     height: 100vh;
 }
@@ -46,7 +45,7 @@ body{
     width: 230px;
     background: white;
     font-size: 18px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     border-radius: 10px;
 }
 
@@ -70,7 +69,7 @@ body{
     width: 230px;
     background: #38D0F9;
     font-size: 18px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     border-radius: 10px;
 }
 
@@ -82,6 +81,6 @@ body{
     width: 350px;
     background: white;
     font-size: 18px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     border-radius: 5px;
 }

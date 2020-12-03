@@ -4,7 +4,6 @@ body{
     background: url(../FONDOS/varios.png) no-repeat center top;
     /* Tamaño de imagen sin recortar ni estirar */
     background-size: cover;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* Altura de la imagen igua al 100% de la ventana */
     height: 100vh;
 }
