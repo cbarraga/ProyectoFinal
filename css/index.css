@@ -1,13 +1,15 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(../FONDOS/PPAL.png) no-repeat center top;
+    background: url(../images/fondo-principal.png) no-repeat center top;
+    background-size: cover;
     /* Tamaño de imagen sin recortar ni estirar */
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* Altura de la imagen igua al 100% de la ventana */
     height: 100vh;
 }
+
 .registro{
     width: 400px;
     height: 420px;
@@ -37,7 +39,7 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
-.registro input[type="submit"]{
+.registro input[type="button"]{
     margin: 10%; 
     margin-left: 15%;
     border: none;
@@ -61,7 +63,7 @@ body {
     box-sizing: border-box;
 }
 
-.iniciosesion input[type="submit"]{
+.iniciosesion input[type="button"]{
     margin: 10%;
     margin-right: 30%;
     border: none;
