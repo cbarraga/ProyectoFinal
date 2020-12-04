@@ -44,13 +44,13 @@ body{
 .cajalogin input[type="text"],
 .cajalogin input[type="email"],
 .cajalogin input[type="password"]{
-    background: transparent;
-    border-bottom: 1px solid floralwhite;
     border: none;
+    border-bottom: 1px solid floralwhite;
+    background: transparent;
+    outline: none;
+    height: 40px;
     color: floralwhite;
     font-size: 16px;
-    height: 40px;
-    outline: none;
 }
 
 .cajalogin input[type="submit"]{
