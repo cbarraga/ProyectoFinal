@@ -7,18 +7,61 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+
 @app.route('/registrar', methods=['POST', 'GET'])
 def registar():
     if request.method == 'GET':
         return render_template('registro.html')
     else:
         # validar el formulario
-        if True:
+        if not True:
             # validación exitosa
             pass
         else:
             # validación incorrecta
             return render_template('registro.html')
+
+
+@app.route('/login', methods=['POST', 'GET'])
+def login():
+    if request.method == 'GET':
+        return render_template('login.html')
+    else:
+        # validar el formulario
+        if not True:
+            # validación exitosa
+            pass
+        else:
+            # validación incorrecta
+            return render_template('login.html')
+
+
+@app.route('/recuperarPassword', methods=['POST', 'GET'])
+def recuperarPassword():
+    if request.method == 'GET':
+        return render_template('recuperarPassword.html')
+    else:
+        # validar el formulario
+        if not True:
+            # validación exitosa
+            pass
+        else:
+            # validación incorrecta
+            return render_template('recuperarPassword.html')
+
+
+@app.route('/nuevaPassword', methods=['POST', 'GET'])
+def nuevaPassword():
+    if request.method == 'GET':
+        return render_template('nuevaPassword.html')
+    else:
+        # validar el formulario
+        if not True:
+            # validación exitosa
+            pass
+        else:
+            # validación incorrecta
+            return render_template('nuevaPassword.html')
 
 
 if __name__ == '__main__':
