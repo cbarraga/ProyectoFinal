@@ -36,10 +36,10 @@ def login():
             return render_template('login.html')
 
 
-@app.route('/RecuperarPassword', methods=['POST', 'GET'])
-def RecuperarPassword():
+@app.route('/recuperarPassword', methods=['POST', 'GET'])
+def recuperarPassword():
     if request.method == 'GET':
-        return render_template('RecuperarPassword.html')
+        return render_template('recuperarPassword.html')
     else:
         # validar el formulario
         if not True:
@@ -47,13 +47,13 @@ def RecuperarPassword():
             pass
         else:
             # validación incorrecta
-            return render_template('RecuperarPassword.html')
+            return render_template('recuperarPassword.html')
 
 
-@app.route('/NuevaPassword', methods=['POST', 'GET'])
-def NuevaPassword():
+@app.route('/nuevaPassword', methods=['POST', 'GET'])
+def nuevaPassword():
     if request.method == 'GET':
-        return render_template('NuevaPassword.html')
+        return render_template('nuevaPassword.html')
     else:
         # validar el formulario
         if not True:
@@ -61,7 +61,20 @@ def NuevaPassword():
             pass
         else:
             # validación incorrecta
-            return render_template('NuevaPassword.html')
+            return render_template('nuevaPassword.html')
+
+@app.route('/Blogs', methods=['POST', 'GET'])
+def Blogs():
+    if request.method == 'GET':
+        return render_template('Blogs.html')
+    else:
+        # validar el formulario
+        if not True:
+            # validación exitosa
+            pass
+        else:
+            # validación incorrecta
+            return render_template('Blogs.html')
 
 
 if __name__ == '__main__':
