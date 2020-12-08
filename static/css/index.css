@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background: url(../images/fondo-principal.png) no-repeat center center fixed;
+    font-family: 'Nunito Sans', Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    display: flex;
+}
+
+.espacioCuadroAzul {
+    height: 100vh;
+    width: 60%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.cuadroAzul {
+    position: absolute;
+    background: #38b6ff;
+    height: 2000px;
+    width: 2000px;
+    right: 500px;
+    z-index: -10;
+    top: -250px;
+    border-radius: 36px;
+    -moz-border-radius: 36px;
+    -webkit-border-radius: 36px;
+    transform: rotate(34deg);
+    -ms-transform: rotate(34deg);
+    -webkit-transform: rotate(34deg);
+}
+
+.contenido {
+    display: flex;
+    flex-grow: 1;
+}
+
+h1 {
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+    font-size: 120px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+ladoIzquierdo ladoDerecho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
