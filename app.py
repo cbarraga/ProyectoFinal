@@ -63,10 +63,16 @@ def nuevaPassword():
             # validación incorrecta
             return render_template('nuevaPassword.html')
 
-@app.route('/Blogs', methods=['POST', 'GET'])
+
+@app.route('/Blogs')
 def Blogs():
+    return render_template('Blogs.html')
+
+
+@app.route('/crearBlog', methods=['POST', 'GET'])
+def crearBlog():
     if request.method == 'GET':
-        return render_template('Blogs.html')
+        return render_template('crearBlog.html')
     else:
         # validar el formulario
         if not True:
@@ -74,7 +80,7 @@ def Blogs():
             pass
         else:
             # validación incorrecta
-            return render_template('Blogs.html')
+            return render_template('crearBlog.html')
 
 
 if __name__ == '__main__':
