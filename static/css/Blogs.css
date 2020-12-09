@@ -58,12 +58,26 @@ body{
     margin-left: 10%;
     border: none;
     outline: none;
-    height: 60px;
-    width: 300px;
+    height: 10px;
+    width: 100px;
     background: rgb(3, 205, 255);
     color:black;
     font-size: 18px;
     font-family: 'Oswald';
     border-radius: 10px;
+    margin-bottom: 200px;
 }
+
+table{
+    width: 100%;
+}
+
+th {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    font-family: 'Oswald';
+    background-attachment: black;
+    color: white;
+ }
 
