@@ -45,7 +45,7 @@ body{
 }
 
 .inputCrearBlog{
-    margin-right: 10%;
+    margin-right: 5%;
     width: 200px;
     height: 420px;
     color: black;
@@ -54,18 +54,19 @@ body{
     position: absolute;
     box-sizing: border-box;
 }
+
 .inputCrearBlog input[type="submit"]{
-    margin-left: 10%;
+    margin-left: 15%;
     border: none;
     outline: none;
     height: 30px;
-    width: 100px;
+    width: 150px;
     background: rgb(3, 205, 255);
     color:black;
     font-size: 18px;
     font-family: 'Oswald';
     border-radius: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 table{
