@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/varios.png) no-repeat center top;
+    height: 100vh;
+    background-size: cover;
+}
+.cajalogin{
+    background: #000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: floralwhite;
+    height: 540px;
+    left: 50%;
+    padding: 70px 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 420px;
+}
+
+.cajalogin h1{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 35px;
+    margin: 0;
+    padding: 0 0 20;
+    text-align: center;
+}
+
+.cajalogin label {
+    margin: 0;
+    padding: 0;
+}
+
+.cajalogin input {
+    width: 100%;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.cajalogin input[type='text'],
+.cajalogin input[type='email'],
+.cajalogin input[type='password'] {
+    border: none;
+    border-bottom: 1px solid floralwhite;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: floralwhite;
+    font-size: 16px;
+}
+
+.cajalogin input[type='submit'] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: white;
+    color: black;
+    font-size: 18px;
+    height: 40px;
+    margin-top:10px;
+    outline: none;
+}

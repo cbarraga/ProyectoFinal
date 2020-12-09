@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Iniciar Sesion</title>
+        <link rel="stylesheet" href="static/css/login.css" />
+    </head>
+    <body>
+        <div class="cajalogin">
+            <h1>INGRESA</h1>
+            <br />
+            <form action="/login" method="post">
+                <label for="email">Correo electrónico</label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Correo electrónico"
+                />
+                <label for="password">Contraseña</label>
+                <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Contraseña"
+                />
+                <input type="submit" value="INICIAR SESIÓN" />
+                <a href="/recuperarPassword">¿Olvidaste tu contraseña?</a>
+            </form>
+        </div>
+    </body>
+</html>
