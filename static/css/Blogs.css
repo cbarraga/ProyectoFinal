@@ -58,26 +58,31 @@ body{
     margin-left: 10%;
     border: none;
     outline: none;
-    height: 80px;
+    height: 30px;
     width: 100px;
     background: rgb(3, 205, 255);
     color:black;
     font-size: 18px;
     font-family: 'Oswald';
     border-radius: 10px;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 table{
+    margin-top: 15%;
     width: 100%;
+    background: black;
+    border: 1px solid #000;
 }
 
 th {
     width: 25%;
     text-align: left;
     vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
     font-family: 'Oswald';
-    background-attachment: black;
     color: white;
  }
 
