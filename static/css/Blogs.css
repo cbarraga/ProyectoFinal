@@ -67,16 +67,3 @@ body{
     border-radius: 10px;
 }
 
-.botones button[type="submit"]{
-    margin-left: 10%;
-    border: none;
-    outline: none;
-    height: 60px;
-    width: 300px;
-    background: rgb(3, 205, 255);
-    color:black;
-    font-size: 18px;
-    font-family: 'Oswald';
-    border-radius: 10px;
-    overflow: visible;
-}
