@@ -15,7 +15,7 @@ body{
 
 .titulo2{
     width: 360px;
-    height: 820px;
+    height: 10px;
     color: black;
 }
 
@@ -45,8 +45,8 @@ body{
 }
 
 .inputCrearBlog{
-    margin-right: 10%;
-    width: 400px;
+    margin-right: 5%;
+    width: 200px;
     height: 420px;
     color: black;
     top: 10%;
@@ -54,15 +54,38 @@ body{
     position: absolute;
     box-sizing: border-box;
 }
+
 .inputCrearBlog input[type="submit"]{
-    margin-left: 10%;
+    margin-top: 2%;
+    margin-left: 100%;
     border: none;
     outline: none;
-    height: 60px;
-    width: 300px;
+    height: 30px;
+    width: 160px;
     background: rgb(3, 205, 255);
     color:black;
     font-size: 18px;
     font-family: 'Oswald';
     border-radius: 10px;
+    margin-bottom: 10px;
 }
+
+table{
+    margin-top: 20%;
+    margin-left: 2.5%;
+    width: 95%;
+    background: black;
+    border: 1px solid #000;
+}
+
+th,td {
+    width: 35%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    font-family: 'Oswald';
+    color: white;
+ }
+
