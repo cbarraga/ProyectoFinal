@@ -25,9 +25,10 @@
                     id="password"
                     placeholder="Contraseña"
                 />
-                <input type="submit" value="INICIAR SESIÓN" />
+                <input type="submit" value="INICIAR SESIÓN" onmouseover="enviar()"/>
                 <a href="/recuperarPassword">¿Olvidaste tu contraseña?</a>
             </form>
         </div>
+        <script src="{{ url_for('static', filename = 'js/funciones.js' ) }}"></script>
     </body>
 </html>
